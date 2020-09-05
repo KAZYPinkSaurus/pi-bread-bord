@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pi-bread-bord"
+version = "0.1.0"
+description = ""
+authors = ["KAZYPinkSaurus"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+loguru = "^0.5.1"
+"RPi.GPIO" = "^0.7.0"
+gpiozero = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
